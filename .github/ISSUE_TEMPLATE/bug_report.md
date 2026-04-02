@@ -22,7 +22,7 @@ What you expected to happen.
 - Browser: (e.g. Chrome 123, Safari)
 
 **Printer model**
-(e.g. Elegoo Neptune 4 Pro)
+Elegoo Centauri Carbon 2 w/ CANVAS
 
 **Build shown in header**
 (The short code next to "MVP" in the top right, e.g. `3efde7c`)

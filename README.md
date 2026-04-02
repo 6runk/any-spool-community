@@ -21,11 +21,12 @@ Elegoo's Neptune and other CANVAS-compatible printers read NFC tags on filament 
 
 ## Supported printers
 
-Any Elegoo printer that reads NFC filament tags, including:
+Any Elegoo CANVAS printer (and potentially with other NFC printers from Elegoo, but this is untested), including:
 
-- Neptune 4 Pro / Max / Plus
-- Neptune 4 X
-- Other CANVAS-compatible models
+- Elegoo Centauri Carbon 2 (with CANVAS)
+- PotentNeptune 4 Pro / Max / Plus (untested)
+- Neptune 4 X (untested)
+- Other CANVAS-compatible models 
 
 ---
 
