@@ -1,0 +1,63 @@
+name: Filament Request
+description: Request a new filament color or material to be added to AnySpool
+title: "Filament Request - [Brand] [Material] [Color]"
+labels: ["filament-request"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us expand the AnySpool catalog! Please provide the details below so we can add it quickly.
+  
+  - type: input
+    id: brand
+    attributes:
+      label: Brand
+      description: "e.g. Polymaker, Zyltech, eSun"
+      placeholder: "e.g. Polymaker"
+    validations:
+      required: true
+      
+  - type: input
+    id: material
+    attributes:
+      label: Material & Subtype
+      description: "e.g. PLA, PLA+, PETG, ABS Matte"
+      placeholder: "e.g. PLA+"
+    validations:
+      required: true
+
+  - type: input
+    id: color_name
+    attributes:
+      label: Color Name
+      description: "The exact name of the color used by the manufacturer."
+      placeholder: "e.g. Fluorescent Blue"
+    validations:
+      required: true
+
+  - type: input
+    id: hex_code
+    attributes:
+      label: Hex Code
+      description: "A 6-character hex code that best represents the color (e.g. #1554d5). You can use a color picker on the product image."
+      placeholder: "e.g. #1554d5"
+    validations:
+      required: true
+
+  - type: input
+    id: product_url
+    attributes:
+      label: Product Page URL
+      description: "Link to the manufacturer's product page or an Amazon listing."
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Why is this useful?
+      description: "(Optional) e.g. 'Very popular on Amazon DE' or 'Unique color property'."
+    validations:
+      required: false
